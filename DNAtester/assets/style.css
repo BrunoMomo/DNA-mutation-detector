@@ -1,0 +1,92 @@
+div.row {
+	margin-bottom: 15px;
+}
+h1 {
+	color: #08310d;
+}
+h1.h1-title-wellcome {
+	margin-top: 15px;
+	margin-left: 40px;
+	margin-bottom: 15px;
+}
+h2 {
+	color: #115611;
+}
+h2.h2-subtitle {
+	margin-top: 5px;
+	margin-left: 40px;
+	margin-bottom: 10px;
+}
+.adncomparison * {
+	text-align: center;
+}
+.adncomparison input, .adncomparison textarea, .divResponseComparison {
+	text-align: left;
+}
+textarea#textareaDNAcomparison {
+	height: 8em;
+}
+div#divResponseComparison {
+	
+}
+button.btn {
+	margin-bottom: 10px;
+	min-width: 180px;
+}
+
+/* Estilo de resultados de comparación */
+.res-seq-no-comp {
+	color: gray;
+}
+.res-seq-no-valid {
+	color: red;
+}
+.res-seq-mutation {
+	color: green;
+}
+.res-seq-no-mut {
+	color: #495057;
+}
+.res-seq-unkn {
+	color: gray;
+}
+/* Tabla de registros */
+.alr0 {
+	color: grey;
+}
+.alr1 {
+	color: red;
+}
+.alr2 {
+	color: green;
+}
+
+/* Estilo de secuencias ADN */
+div.divDNArow {
+	min-width: 220px;
+}
+.base-n {
+	width: 17px;
+	height: 24px;
+	text-align: center;
+	display: inline-block;
+	margin-left: 1px;
+	margin-top: 4px;
+}
+.base-n-A {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 90% 85%, 80% 81%, 70% 78%, 60% 76%, 50% 75%, 49% 75%, 39% 76%, 20% 78%, 19% 81%, 9% 85%,	0 100%);
+	background-color: #ff2d2d;
+}
+.base-n-C {
+	clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 75%, 0% 100%);
+	background-color: #ffff66;
+}
+.base-n-G {
+	clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 50% 100%, 0% 75%);
+	background-color: #6aaeff;
+}
+.base-n-T {
+	border-bottom-left-radius: 7.5px;
+	border-bottom-right-radius: 7.5px;
+	background-color: #4de24d;
+}
